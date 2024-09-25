@@ -13,3 +13,44 @@
  *= require_tree .
  *= require_self
  */
+
+ #header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(235, 233, 233);
+    align-items: center;
+  }
+  
+  .new_restaurant a {
+    color: white;
+    background-color: rgb(37, 106, 255);
+    padding: 8px;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
+  .new_restaurant a:hover {
+    color: lightgrey;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  .rest_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8px;
+    padding-bottom: 16px;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 450px;
+    width: 100%;
+  }
+  
